@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galeria de Dashboards Power BI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    h1 {
+      font-size: 2.2em;
+      color: #222;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+    article.dashboard {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    article.dashboard img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s;
+      margin-bottom: 15px;
+    }
+    article.dashboard img:hover {
+      transform: scale(1.05);
+      border-color: #777;
+    }
+    article.dashboard h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      color: #0056b3;
+    }
+    article.dashboard a {
+      font-weight: bold;
+      color: #007acc;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    article.dashboard a:hover {
+      text-decoration: underline;
+    }
+    article.dashboard p.description {
+      font-size: 1em;
+      line-height: 1.5;
+      color: #555;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galeria de Dashboards Power BI</h1>
+  </header>
+  <main>
+
+    <article class="dashboard">
+      <h2>RELATÓRIO GERENCIAL DO SETOR COMERCIAL</h2>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiMjE2ZTlhMTUtNDI2OC00NzcxLTgyZTUtM2RhZTc0ZDgxNDc4IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9" target="_blank">Abrir Dashboard</a>
+      <img src="https://github.com/paulomulato/Imagens-power-bi/raw/main/Dashboard%20Comercial.png" alt="RELATÓRIO GERENCIAL DO SETOR COMERCIAL">
+      <p class="description">
+        Painel gerencial que centraliza indicadores essenciais do setor comercial, incluindo análise de vendas, desempenho por equipe e resultados comparativos por período. Facilita o acompanhamento da performance comercial, identificação de oportunidades e tomada de decisão baseada em dados confiáveis.
+      </p>
+    </article>
+
+    <article class="dashboard">
+      <h2>BASKET ANALYSIS</h2>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiMzI5Nzk2ODItNGQ0YS00OGFlLTkxZWItN2NmMTliMGJiMTQ0IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSectionef15368fdda80506007d" target="_blank">Abrir Dashboard</a>
+      <img src="https://github.com/paulomulato/Imagens-power-bi/raw/main/Basket%20Analysis.PNG" alt="BASKET ANALYSIS">
+      <p class="description">
+        Análise detalhada das combinações de produtos adquiridos pelos clientes, identificando padrões de compra conjunta. Este relatório auxilia na criação de estratégias de venda cruzada, otimização de layout em lojas físicas, personalização de recomendações em e-commerce e desenvolvimento de campanhas promocionais focadas na maximização do ticket médio.
+      </p>
+    </article>
+
+    <article class="dashboard">
+      <h2>COHORT ANALYSIS</h2>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiM2E2YmM0MDAtYTU5Zi00MWE0LWE0ZGEtMDI2ZWQxNzJlODc0IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSection537282f132260d45b987" target="_blank">Abrir Dashboard</a>
+      <img src="https://github.com/paulomulato/Imagens-power-bi/raw/main/Cohort%20Analysis.png" alt="COHORT ANALYSIS">
+      <p class="description">
+        Este dashboard permite o acompanhamento longitudinal de grupos de clientes (coortes) definidos por características temporais, como data de aquisição. A análise possibilita avaliar o comportamento, retenção e engajamento dessas coortes ao longo do tempo, fornecendo insights valiosos para aprimorar estratégias de marketing e fidelização.
+      </p>
+    </article>
+
+    <article class="dashboard">
+      <h2>CUSTOMER SEGMENTATION</h2>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNjVlYzVmZjYtMGQ2ZS00MTEwLWJmMzktNWViZDYyY2IwNDA5IiwidCI6IjE1MWU4NmE5LWMzMTUtNDVkMC05NmZlLWJjZDA4Y2M1YjYyMSJ9&pageName=ReportSection537282f132260d45b987" target="_blank">Abrir Dashboard</a>
+      <img src="https://github.com/paulomulato/Imagens-power-bi/raw/main/Customer%20Segmentation.png" alt="CUSTOMER SEGMENTATION">
+      <p class="description">
+        Painel focado na segmentação de clientes baseado em indicadores como frequência de compra, valor monetário e tempo de inatividade. O Customer Health Score (CHS) oferece uma visão consolidada da saúde da base de clientes, possibilitando identificar contas em risco, orientar ações corretivas e maximizar o valor do ciclo de vida do cliente.
+      </p>
+    </article>
+
+    <article class="dashboard">
+      <h2>PARETO ANALYSIS</h2>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiY2ZlNzFiM2YtODhjMC00ZDJlLWE5MmEtNjI2ODFkMGI2ODBkIiwidCI6ImJhMTRlOGIzLWQ2NjctNDMyYy04Y2E5LThjNzcyNzBkN2UzNyJ9" target="_blank">Abrir Dashboard</a>
+      <img src="https://github.com/paulomulato/Imagens-power-bi/raw/main/Pareto%20Analysis.PNG" alt="PARETO ANALYSIS">
+      <p class="description">
+        Este relatório aplica o princípio de Pareto para identificar os principais fatores que impactam os resultados do negócio. Com base na análise 80/20, é possível concentrar esforços nos poucos produtos, clientes ou atividades que geram a maior parte do faturamento ou lucro, otimizando recursos e estratégias.
+      </p>
+    </article>
+
+  </main>
+</body>
+</html>
